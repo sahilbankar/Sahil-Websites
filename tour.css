@@ -1,0 +1,396 @@
+* {
+   margin: 0%;
+   padding: 0%;
+}
+
+body {
+   background-color: rgb(250, 220, 225);
+   font-family: 'Robto', sans-serif;
+}
+
+nav {
+   display: flex;
+   justify-content: space-around;
+   background-color: rgb(250, 220, 225);
+   padding: 22px;
+   align-items: center;
+   position: fixed;
+   top: 0%;
+   width: 100%;
+   height: 10px;
+}
+
+ul {
+   display: flex;
+   align-items: center;
+}
+
+ul li {
+   list-style: none;
+}
+
+ul li a {
+   font-size: 20px;
+   text-decoration: none;
+   margin-inline: 20px;
+   color: black;
+}
+
+ul li a:hover {
+   color: rgb(254, 0, 42);
+   border-bottom: 2px solid rgb(244, 20, 57);
+
+}
+
+.lcons {
+   display: flex;
+   align-items: center;
+}
+
+#barr {
+   display: none;
+}
+
+.icons button {
+   width: 80px;
+   height: 28px;
+   border: none;
+   background-color: rgb(255, 0, 89);
+
+   color: white;
+   border: none;
+   font-size: 18px;
+   border-radius: 22px;
+}
+
+.icons button:hover {
+   transform: scale(1.1);
+}
+
+.logo {
+   font-size: 20px;
+
+}
+
+.main {
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+
+}
+
+.maintext {
+   margin-top: 22px;
+}
+
+.main i {
+
+   color: rgb(251, 162, 177);
+}
+
+.maintext h1 {
+
+   font-size: 44px;
+   margin-left: 15px;
+   position: relative;
+   bottom: 27px;
+   z-index: -1;
+}
+
+.maintext p {
+   font-size: 26px;
+   margin-left: 13px;
+
+   position: relative;
+   bottom: 150px;
+   z-index: -1;
+}
+
+.maintext button {
+
+   margin-left: 23px;
+   margin-top: 100px;
+
+
+   background-color: rgb(252, 8, 49);
+   border: none;
+   height: 40px;
+   width: 140px;
+   font-size: 25px;
+   z-index: -1;
+   color: white;
+   border-radius: 12px;
+}
+
+.maintext button:hover {
+   transform: scale(1.1);
+
+}
+
+#d {
+   width: 380px;
+   right: 50px;
+   position: absolute;
+   bottom: -18px;
+   z-index: -1;
+
+}
+
+#id {
+   position: relative;
+   right: 50px;
+   bottom: 30px;
+   font-size: 400px;
+   z-index: -1;
+}
+
+.head {
+   text-align: center;
+   padding: 70px;
+   font-size: 18px;
+}
+
+.head span {
+   color: rgb(252, 8, 49);
+
+}
+
+.places {
+   display: flex;
+   justify-content: center;
+
+}
+
+#po {
+   width: 300px;
+}
+
+.placecard {
+   width: 300px;
+   height: 290px;
+   margin-bottom: 30px;
+   background-color: white;
+   border-radius: 4px;
+   margin-inline: 10px;
+
+
+}
+.placecard:hover{
+   transform: scale(1.1);
+}
+.placecard{
+   background-image: url("slide5.jpg");
+   
+   
+}
+.placecard img {
+   width: 100%;
+   height: 200px;
+   border-radius: 9;
+}
+
+
+
+.placecard p {
+   margin-top: 6px;
+   margin-left: 11px;
+}
+
+.headd {
+   text-align: center;
+   padding: 60px;
+   font-size: 18px;
+}
+
+.headd span {
+   color: rgb(252, 8, 49);
+}
+
+.Packages {
+   display: flex;
+   justify-content: center;
+
+
+}
+
+.card {
+   width: 300px;
+   height: 300px;
+   background-color: white;
+   border-radius: 4px;
+   margin-inline: 10px;
+
+   margin-bottom: 30px;
+}
+
+
+
+.card img {
+   width: 100%;
+   height: 190px;
+   border-radius: 4px;
+}
+
+#pv {
+   width: 300px;
+}
+
+.card p {
+   font-size: 15px;
+   margin-top: 2px;
+   margin-left: 10px;
+}
+
+.card button {
+   margin-left: 8px;
+   margin-top: 5px;
+   width: 80px;
+   height: 28px;
+   border: none;
+   background-color: rgb(255, 0, 89);
+
+   color: white;
+   border: none;
+   border-radius: 10px;
+}
+
+.card button:hover {
+   transform: scale(1.1);
+}
+
+.headdd {
+
+   text-align: center;
+   padding: 70px;
+   font-size: 16px;
+}
+
+.headdd span {
+   color: rgb(252, 8, 49);
+}
+
+.reviews {
+   width: 100%;
+   height: 320px;
+   background-color: white;
+   position: relative;
+
+   margin: auto;
+   overflow: hidden;
+
+}
+
+.reviews .reviewcard {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: white;
+   text-align: center;
+   transition: all 1s ease;
+   margin-bottom: 50px;
+
+}
+
+.reviewcard img {
+   width: 25%;
+   height: 150px;
+   margin-top: 30px;
+   border-radius: 59%;
+}
+
+.reviewcard p {
+   font-size: 15px;
+   margin-top: 6px;
+}
+
+#pol {
+   font-size: 25px;
+   margin-top: 7px;
+
+}
+
+#h1 {
+   font-size: 25px;
+   margin-top: 7px;
+
+}
+
+#h2 {
+
+   font-size: 25px;
+   margin-top: 7px;
+
+}
+
+#h3 {
+
+   font-size: 25px;
+   margin-top: 7px;
+
+
+}
+
+#h4 {
+   font-size: 25px;
+   margin-top: 7px;
+
+}
+
+.footer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-right: 80px;
+   width: 100%;
+   height: 100PX;
+   padding: 55px;
+   position: relative;
+   right: 50px;
+   bottom: 20px;
+   text-align: center;
+
+}
+
+.text {
+   margin-top: 22px;
+}
+
+.text p {
+   margin-top: 11px;
+}
+.loginpage{
+   display: none;
+}
+.active{
+   display: block;
+   width: 250px;
+   background-color: white;
+   text-align: center;
+   padding: 11px;
+   position: fixed;
+   top: 75px;
+   right: 4%;
+   border-radius: 9px;
+}
+.active input{
+   width: 80%;
+   font-size: 15px;
+   padding: 10px;
+   margin-top: 12px;
+
+}
+.active button{
+   width: 90px;
+   height: 28px;
+   background-color: rgb(255, 0, 89);
+   color: white;
+   font-size: 18px;
+   margin-top: 15px;
+   border: none;
+   border-radius: 12px;
+   
+}
+.active button:hover{
+   transform: scale(1.1);
+}
+*/
