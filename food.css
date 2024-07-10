@@ -1,0 +1,414 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(64, 63, 63);
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-inline: 22px;
+
+}
+
+ul li:hover {
+
+  border-bottom: 2px solid white;
+  transition: all 0.3s ease-in;
+
+
+}
+
+.logo {
+  color: white;
+  font-size: 21px;
+
+}
+
+#sb {
+  margin-right: 140px;
+}
+
+.main {
+  display: flex;
+  gap: 33px;
+  justify-content: center;
+  margin-top: 111px;
+}
+
+.main img {
+  width: 650px;
+
+}
+
+.maintext h2 {
+  margin-top: 44px;
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+#sit {
+  margin-left: 40px;
+}
+
+#button {
+  margin-left: 40px;
+}
+
+
+.main h1 {
+  font-size: 44px;
+
+}
+
+.main p {
+  margin-top: 22px;
+  color: silver;
+
+}
+
+.main button {
+  width: 140px;
+  height: 39px;
+  background-color: rgb(255, 83, 20);
+  color: white;
+  font-size: 18px;
+  border: none;
+  margin-top: 22px;
+}
+
+.head {
+  text-align: center;
+  padding: 88px;
+}
+
+#i {
+  width: 300px;
+  height: 200px;
+
+}
+
+#i2 {
+  width: 300px;
+  height: 200px;
+
+}
+
+#i3 {
+
+  width: 300px;
+  height: 200px;
+
+
+}
+
+.foods {
+  display: flex;
+
+  justify-content: center;
+}
+
+.foodcard {
+  width: 300px;
+  padding: 11px;
+  background-color: white;
+  margin-inline: 24px;
+  margin-top: 24px;
+  margin-bottom: 80px;
+  color: black;
+  cursor: pointer;
+}
+
+.foodcard img {
+  width: 100%;
+}
+
+.foodcard {
+  padding: 7px;
+}
+
+.foodcard button {
+  width: 130px;
+  background-color: orangered;
+  color: white;
+  padding: 3px;
+  border: none;
+  font-size: 18px;
+}
+
+.sahil {
+  display: flex;
+  justify-content: center;
+}
+
+#b {
+  width: 300px;
+  height: 200px;
+}
+
+#bowl {
+  width: 300px;
+  height: 200px;
+
+}
+
+#bowl1 {
+  width: 300px;
+  height: 200px;
+}
+
+.sahilcard {
+  width: 300px;
+  padding: 11px;
+  background-color: white;
+  margin-inline: 24px;
+  margin-top: 24px;
+  color: black;
+  cursor: pointer;
+}
+
+.sahilcard img {
+  width: 100%;
+}
+
+.sahilcard {
+  padding: 7px;
+}
+
+.sahilcard button {
+  width: 130px;
+  background-color: orangered;
+  color: white;
+  padding: 3px;
+  border: none;
+  font-size: 18px;
+}
+
+#r {
+  width: 200px;
+  height: 100px;
+}
+
+#rr {
+  width: 200px;
+  height: 100px;
+}
+
+#rrr {
+  width: 200px;
+  height: 100px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+
+}
+
+.reviewcard {
+  width: 300px;
+  padding: 15px;
+  background-color: #fff;
+  text-align: center;
+  margin-inline: 22px;
+  border-radius: 11px;
+  color: black;
+  border-radius: 12px;
+  margin-top: 22px;
+
+}
+
+.reviewcard img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+}
+
+.trends {
+  width: 900px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+  top: 0%;
+  overflow: hidden;
+}
+
+.trendfood {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0% margin: auto;
+  overflow: hidden;
+  transition: all 1s ease;
+
+}
+
+.trendfood img {
+  width: 240px;
+  height: 240px;
+  margin-inline: 12px;
+}
+
+.blogs {
+  display: flex;
+  justify-content: center;
+
+}
+
+.blogcard {
+  width: 300px;
+  height: 270px;
+  background-color: #fff;
+  color: black;
+  margin-inline: 22px;
+  padding: 11px;
+  margin-top: 22px;
+}
+
+.blogcard img {
+  width: 100%;
+
+}
+
+.blogcard a {
+  padding: 4px 12px;
+  background-color: orange;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  top: 11px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding: 66px;
+  margin-top: 66px;
+
+}
+
+.text {
+  margin-top: 22px;
+}
+
+.text p {
+  margin-top: 11px;
+
+}
+
+.cardDetail {
+  width: 300px;
+  padding: 25px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 11px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 40%);
+  color: black;
+
+}
+
+.cardDetail img {
+  width: 70%;
+
+}
+
+.cardDetail i {
+  position: absolute;
+  top: 0%;
+  left: 300px;
+  font-size: 20px;
+  padding: 11px;
+  /*background-color:black;
+  color: #fff;*/
+  cursor: pointer;
+}
+/*
+@media screen and (max-width:910px) {
+  .main {
+    display: block;
+    text-align: center;
+  }
+
+  .main img {
+    margin-top: 22px;
+  }
+}
+
+@media screen and (max-width:820px) {
+  .trends {
+    width: 90%;
+  }
+
+  .trendfood img {
+    width: 200px;
+    margin-inline: 6px;
+  }
+}
+
+@media screen and (max-width:670px) {
+  .trends {
+    width: 90%;
+  }
+
+  .trendfood img {
+    width: 80px;
+    height: 100px;
+    margin-inline: 3px;
+  }
+}
+
+#bar {
+  font-size: 26px;
+  display: none;
+}
+
+@media screen and (max-width:750px) {
+  ul li {
+    display: none;
+  }
+
+  #bar {
+    display: block;
+  }
+
+  .main img {
+    width: 90%;
+    border-radius: 12px;
+  }
+
+  /*.main h1{
+    font-size: 10px;
+  }*/
